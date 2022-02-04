@@ -16,22 +16,7 @@ img{
    
 
 }
-.fondo{
-    position:absolute;
-    position: fixed;
-    height:70vw;
-    width:100vw;
-    top: 40px;
-    z-index: -1;
-  }
-  
-  .team  {
-    height:800px;
-    width:900px;
-    z-index: 1;
-    display: block;
-    margin: auto;
-  }
+
 
 .menu {
     background-color: orangered;
@@ -143,7 +128,23 @@ img{
     top: 0;
 }
 
-
+/* BODY */
+.fondo{
+    position:absolute;
+    position: fixed;
+    height:70vw;
+    width:100vw;
+    top: 40px;
+    z-index: -1;
+  }
+  
+  .team  {
+    height:800px;
+    width:900px;
+    z-index: 1;
+    display: block;
+    margin: auto;
+  }
 
 /* CONTACTOS */
 
@@ -183,8 +184,41 @@ img{
 }
 .sticky li p a{
     text-decoration:none;
-    color:#2C3539;
+    color:orangered;
 }
 .sticky li p a:hover{
     text-decoration:underline;
 }
+
+
+/* GALERIA */
+
+#principal {
+    margin top: 500px;
+ }
+
+.contenedorfoto {
+   float:left;
+   margin: 10px;
+   padding:5px;
+}
+
+.contenedorfoto {
+    float:left;
+    width:210px;
+    height:180px;
+    margin: 10px;
+    padding:15px;
+    background-color:#f5f7f9;
+    border-right: #a5a7aa solid 1px;
+    border-bottom: #a5a7aa solid 1px;
+    text-align:center;
+    justify-content: space-between;
+ }
+
+ .contenedorfoto img{
+    width:300px;
+    height:250px;
+    margin: 10px;
+    padding:5px;
+ }
